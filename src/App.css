@@ -1,0 +1,27 @@
+
+
+.home {
+  background-color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar{
+  height: 100%;
+  min-height: inherit;
+  width: 300px;
+  position: fixed;
+}
+
+.mainPage{
+  margin-left: 320px;
+  height: 100%;
+  min-height: inherit;
+}
+
+.element{
+  height: 100%;
+  min-height: inherit;
+  padding-left: 10px;
+}

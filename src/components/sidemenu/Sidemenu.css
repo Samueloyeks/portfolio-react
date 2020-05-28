@@ -1,0 +1,51 @@
+.sidemenu{
+    /* width:300px; */
+    background-color: black;
+    float: left;
+    min-height: inherit;
+    filter: drop-shadow(3px 2px 7px black);
+    text-align: -webkit-center;
+    padding: 10px;
+    position: fixed;
+  }
+
+.avatarSection{
+    text-align: -webkit-center;
+}
+
+.imageContainer{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #2196F3;
+    position: relative;
+}
+
+.contact{
+    padding: 5px;
+    font-size: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.icon{
+    padding: 5px;
+}
+
+.nav-items{
+    list-style: none;
+    padding: 20px;
+}
+
+.nav-item{
+    font-size: 20px;
+    margin: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+}
+
+.active, .btn:hover {
+    color: #2196F3;
+    font-size: 30px;
+  }
