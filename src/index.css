@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'Molengo';
+  src: local('Molengo'), url(./assets/fonts/Molengo/Molengo-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto-sans-bold';
+  src: local('Noto-sans-bold'), url(./assets/fonts/Noto_Sans/NotoSans-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto-sans-regular';
+  src: local('Noto-sans-regular'), url(./assets/fonts/Noto_Sans/NotoSans-Regular.ttf) format('truetype');
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,10 +20,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: monospace;
+  font-family: Molengo;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+

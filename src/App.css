@@ -4,24 +4,27 @@
   background-color: #fff;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .sidebar{
   height: 100%;
   min-height: inherit;
-  width: 300px;
-  position: fixed;
+  /* width: 300px; */
+  /* position: fixed; */
+  flex:0.2
 }
 
 .mainPage{
-  margin-left: 320px;
+  /* margin-left: 320px; */
   height: 100%;
   min-height: inherit;
+  flex:0.8;
 }
 
 .element{
   height: 100%;
+  width: 100%;
   min-height: inherit;
   padding-left: 10px;
 }

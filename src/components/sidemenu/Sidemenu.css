@@ -1,12 +1,13 @@
 .sidemenu{
     /* width:300px; */
-    background-color: black;
+    background-color: rgb(133, 103, 288,100%);
     float: left;
     min-height: inherit;
     filter: drop-shadow(3px 2px 7px black);
     text-align: -webkit-center;
     padding: 10px;
     position: fixed;
+    width:fit-content
   }
 
 .avatarSection{
@@ -46,6 +47,6 @@
 }
 
 .active, .btn:hover {
-    color: #2196F3;
+    color: #FFBDC6;
     font-size: 30px;
   }
